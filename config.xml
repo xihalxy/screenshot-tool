@@ -1,0 +1,50 @@
+<?xml version="1.0" encoding="utf-8"?>
+<screenshot-config>
+    <!--存储路径-->
+    <path>
+        <!--单张截图存储-->
+        <picture>C:\Users\Owner\Pictures\backimage</picture>
+        <!--整体模型存储-->
+        <model>C:\Users\Owner\Pictures\backimage</model>
+    </path>
+    <!--常用快捷键-->
+    <control>
+        <!--加载布局-->
+        <loadmodel>Control-l</loadmodel>
+        <!--保存布局-->
+        <savemodel>Control-s</savemodel>
+        <!--新建截图-->
+        <newscreenshot>KeyPress-A</newscreenshot>
+        <!--退出截图界面-->
+        <exitscreenshot>Escape</exitscreenshot>
+        <!--复制选中截图-->
+        <copyscreenshot>Control-c</copyscreenshot>
+        <!--保存选中截图-->
+        <savescreenshot>Control-s</savescreenshot>
+        <!--扩大1.5倍-->
+        <_1.5enlarge>KeyPress-*</_1.5enlarge>
+        <!--缩小到0.5倍-->
+        <_0.5shrink>KeyPress-/</_0.5shrink>
+        <!--确认对选中区域进行截图-->
+        <hungshot>Button-3</hungshot>
+        <!--上下镜像-->
+        <flip_Updown>KeyPress-Up</flip_Updown>
+        <!--左右镜像-->
+        <flip_Leftright>KeyPress-Down</flip_Leftright>
+        <!--逆时针旋转90-->
+        <rotate_left90>KeyPress-Left</rotate_left90>
+        <!--顺时针旋转90-->
+        <rotate_right90>KeyPress-Right</rotate_right90>
+        <!--重置选中截图-->
+        <resetsingleshot>KeyPress-r</resetsingleshot>
+        <!--销毁选中截图-->
+        <destorysingleshot>Escape</destorysingleshot>
+        
+        <!-- 键位说明 -->
+        <!-- KeyPress-x 键盘x键-->
+        <!-- Control-Shift-KeyPress-x Ctrl+Shift+x键同时-->
+        <!-- Button-1 表示鼠标左键  Button-2 表示鼠标中键  Button-3 表示鼠标右键-->
+        <!-- Alt Alt键 Any 任意键 Control Ctrl键 Lock 大写锁定键 Shift Shift键 Double 双击-->
+        <!-- 更多说明详见tkinter event介绍-->
+    </control>
+</screenshot-config>
